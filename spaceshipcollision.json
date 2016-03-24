@@ -1,0 +1,49 @@
+{ 
+    
+    "spaceship": [
+        
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   14, 32  ,  48, 51  ,  2, 51  ,  1.5649452209472656, 31.96087646484375  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   48, 51  ,  14, 32  ,  37, 32  ,  47.574333190917969, 32.430360794067383  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   14, 32  ,  17, 17  ,  37, 17  ,  37, 32  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   33, 6  ,  33, 17  ,  17, 17  ,  17, 5  ,  21, 1  ,  29, 1  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   17, 17  ,  14, 32  ,  13, 17  ]
+        }
+    ]
+    , 
+    "ground": [
+        
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   0, 50  ,  0, 0  ,  50, 0  ,  50, 50  ]
+        }
+    ]
+    , 
+    "ground_land_here": [
+        
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   0, 0  ,  256, 0  ,  256, 50  ,  0, 50  ]
+        }
+    ]
+}
