@@ -45,12 +45,12 @@ var scoreText2;
 var dogReleased = false;
 var grabbedTheDog = false;
 var dogEscaped = false;
-var player_1_score;
-var player_2_score;
 var fire = false;
 var grabbed = false;
 var collideWithDog = false;
 var failed = false;
+var player_1_score;
+var player_2_score;
 
 var game = new Phaser.Game(config);
 
@@ -62,7 +62,7 @@ function preload ()
     this.load.image('star', 'assets/star.png');
     this.load.image('bomb', 'assets/bomb.png');
     this.load.spritesheet('pingo', 'assets/Shiba-Inu-Pet-Mod.png', { frameWidth: 96, frameHeight: 96 });
-    this.load.spritesheet('dude', 'assets/dude.png', { frameWidth: 158, frameHeight: 168 });
+    this.load.spritesheet('dude', 'assets/dude.png', { frameWidth: 200, frameHeight: 200 });
 }
 
 function create ()
@@ -121,13 +121,13 @@ function create ()
 
     this.anims.create({
         key: 'grabbing_dude',
-        frames: this.anims.generateFrameNumbers('dude', { start: 1, end: 1 }),
+        frames: this.anims.generateFrameNumbers('dude', { start: 0, end: 0 }),
         frameRate: 2
     });
 
     this.anims.create({
         key: 'standing_dude',
-        frames: this.anims.generateFrameNumbers('dude', { start: 0, end: 0 }),
+        frames: this.anims.generateFrameNumbers('dude', { start: 1, end: 1 }),
         frameRate: 2
     });
 
